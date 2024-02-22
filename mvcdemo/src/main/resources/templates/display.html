@@ -1,0 +1,18 @@
+<html>
+	
+	<body>
+		
+				<h2>MVC Demo page is created</h2>
+		
+		
+		<table border="1">
+			<tr  th:each="emp : ${employees}" >
+				<td th:text="${emp.empid}" />
+				<td th:text="${emp.name}" />
+				<td th:text="${emp.dept}" />
+			</tr>
+			
+		</table>
+	
+	</body>
+</html>
